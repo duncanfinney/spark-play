@@ -67,6 +67,8 @@ libraryDependencies += "org.apache.ctakes" % "ctakes-drug-ner" % "3.2.1"
 
 libraryDependencies += "org.apache.ctakes" % "ctakes-assertion" % "3.2.1"
 
+libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.2.0"
+
 
 javaOptions += "-Xmx2G"
 
