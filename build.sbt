@@ -43,9 +43,9 @@ libraryDependencies +=  "junit" % "junit" % "4.8.1" % "test"
 
 //libraryDependencies += "org.apache.spark" %% "spark-sql" % "1.1.0"
 
-libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.1.0"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "1.3.0"
 
-libraryDependencies += "org.apache.spark" %% "spark-streaming-twitter" % "1.1.0"
+libraryDependencies += "org.apache.spark" %% "spark-streaming-twitter" % "1.3.0"
 
 libraryDependencies += "com.google.code.gson" % "gson" % "2.3"
 
@@ -67,7 +67,7 @@ libraryDependencies += "org.apache.ctakes" % "ctakes-drug-ner" % "3.2.1"
 
 libraryDependencies += "org.apache.ctakes" % "ctakes-assertion" % "3.2.1"
 
-libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.2.0"
+libraryDependencies += "org.apache.spark" % "spark-streaming-kafka_2.10" % "1.3.0"
 
 
 javaOptions += "-Xmx2G"
